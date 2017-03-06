@@ -1,7 +1,7 @@
 # BrowserStackDelta
 BrowserStackDelta
 
-Project Description: The project com.delta.hybrid is a Test automation framework designed from the scratch using Selenium Webdriver(2.53), TestNg(6.9.4) and Maven(3.3.9). The programming language used is Java. It consists of a working test suite that verifies the functionality of three critical user flows on the Delta.com homepage, using the BrowserStack Automate product. It contains strict implemention of the page Object model Design. Locators and methods are independent of test cases. The code is more optimized because of the reusable page classes.
+Project Description: BrowserStackDelta is a Test automation framework designed from the scratch using Selenium Webdriver(2.53), TestNg(6.9.4) and Maven(3.3.9). The programming language used is Java. It consists of a working test suite that verifies the functionality of three critical user flows on the Delta.com homepage, using the BrowserStack Automate product. It contains strict implemention of the page Object model Design. Locators and methods are independent of test cases. The code is more optimized because of the reusable page classes.
 
 Configurations and parameters: The User id and Automate-Key required to connect with the BrowserStack platform are provided through the properties file. This framework can be extensively used to perform Cross-Browser and Cross-O.S testing. The user can input the type and version of OS and Browser in the form of Maven parameters. This configuration gives freedom to the users to input OS and Browser of their choice during runtime.
 
@@ -13,4 +13,4 @@ git clone git@github.com:harshil1826/BrowserStackDelta.git && cd BrowserStackDel
 
 Parallel Execution: The users are allowed to specify whether to run the tests either sequentially (single thread) or in parallel (multi-threaded). In order to run tests in parallel, following values should be added in the suite tag of TestNG.xml: parallel="classes" thread-count="3"
 
-The suite is defaulted to parallel execution. In order to change it to sequential, the values of parallel="classes" thread-count="3" must be removed.
+The suite is defaulted to parallel execution. In order to change it to sequential, the values parallel="classes" thread-count="3" must be removed.
