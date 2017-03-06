@@ -1,0 +1,10 @@
+dataProvider\ConfigDataProvider.class
+factory\BrowserFactory.class
+testcases\Verify_FlightDetails.class
+Pages\Delta_HomePage.class
+factory\DataProviderFactory.class
+Pages\Delta_FlightResultsPage.class
+testcases\Verify_FlightResults.class
+utility\Helper.class
+Pages\Delta_HotelResultsPage.class
+testcases\Verify_HotelSearch.class

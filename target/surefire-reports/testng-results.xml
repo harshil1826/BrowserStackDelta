@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[*****Waiting for Browser to launch*****]]>
+    </line>
+    <line>
+      <![CDATA[*****Waiting for Browser to launch*****]]>
+    </line>
+    <line>
+      <![CDATA[*****Waiting for Browser to launch*****]]>
+    </line>
+    <line>
+      <![CDATA[*****Browser started*****]]>
+    </line>
+    <line>
+      <![CDATA[*****Test started*****]]>
+    </line>
+    <line>
+      <![CDATA[*****Browser started*****]]>
+    </line>
+    <line>
+      <![CDATA[*****Test started*****]]>
+    </line>
+    <line>
+      <![CDATA[*****Browser started*****]]>
+    </line>
+    <line>
+      <![CDATA[*****Test started*****]]>
+    </line>
+    <line>
+      <![CDATA[*****Test completed*****]]>
+    </line>
+    <line>
+      <![CDATA[*****Session Ended*****]]>
+    </line>
+    <line>
+      <![CDATA[*****Test completed*****]]>
+    </line>
+    <line>
+      <![CDATA[*****Session Ended*****]]>
+    </line>
+    <line>
+      <![CDATA[*****Test completed*****]]>
+    </line>
+    <line>
+      <![CDATA[*****Session Ended*****]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47846" started-at="2017-03-06T08:03:18Z" finished-at="2017-03-06T08:04:06Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="47846" started-at="2017-03-06T08:03:18Z" finished-at="2017-03-06T08:04:06Z">
+      <class name="testcases.Verify_FlightDetails">
+        <test-method status="PASS" signature="setUP(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.Verify_FlightDetails@4c203ea1]" name="setUP" is-config="true" duration-ms="7870" started-at="2017-03-06T00:03:18Z" finished-at="2017-03-06T00:03:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[54]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[*****Waiting for Browser to launch*****]]>
+            </line>
+            <line>
+              <![CDATA[*****Browser started*****]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="testHomePage()[pri:0, instance:testcases.Verify_FlightDetails@4c203ea1]" name="testHomePage" duration-ms="35537" started-at="2017-03-06T00:03:26Z" finished-at="2017-03-06T00:04:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[*****Test started*****]]>
+            </line>
+            <line>
+              <![CDATA[*****Test completed*****]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.Verify_FlightDetails@4c203ea1]" name="tearDown" is-config="true" duration-ms="4428" started-at="2017-03-06T00:04:01Z" finished-at="2017-03-06T00:04:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[*****Session Ended*****]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.Verify_FlightDetails -->
+      <class name="testcases.Verify_FlightResults">
+        <test-method status="PASS" signature="setUP(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.Verify_FlightResults@7a79be86]" name="setUP" is-config="true" duration-ms="7891" started-at="2017-03-06T00:03:18Z" finished-at="2017-03-06T00:03:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[54]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[*****Waiting for Browser to launch*****]]>
+            </line>
+            <line>
+              <![CDATA[*****Browser started*****]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="testHomePage()[pri:0, instance:testcases.Verify_FlightResults@7a79be86]" name="testHomePage" duration-ms="23140" started-at="2017-03-06T00:03:26Z" finished-at="2017-03-06T00:03:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[*****Test started*****]]>
+            </line>
+            <line>
+              <![CDATA[*****Test completed*****]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.Verify_FlightResults@7a79be86]" name="tearDown" is-config="true" duration-ms="4885" started-at="2017-03-06T00:03:49Z" finished-at="2017-03-06T00:03:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[*****Session Ended*****]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.Verify_FlightResults -->
+      <class name="testcases.Verify_HotelSearch">
+        <test-method status="PASS" signature="setUP(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.Verify_HotelSearch@34ce8af7]" name="setUP" is-config="true" duration-ms="8487" started-at="2017-03-06T00:03:18Z" finished-at="2017-03-06T00:03:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[54]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[*****Waiting for Browser to launch*****]]>
+            </line>
+            <line>
+              <![CDATA[*****Browser started*****]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="testHomePage()[pri:0, instance:testcases.Verify_HotelSearch@34ce8af7]" name="testHomePage" duration-ms="29220" started-at="2017-03-06T00:03:26Z" finished-at="2017-03-06T00:03:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[*****Test started*****]]>
+            </line>
+            <line>
+              <![CDATA[*****Test completed*****]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.Verify_HotelSearch@34ce8af7]" name="tearDown" is-config="true" duration-ms="4114" started-at="2017-03-06T00:03:56Z" finished-at="2017-03-06T00:04:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[*****Session Ended*****]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.Verify_HotelSearch -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
